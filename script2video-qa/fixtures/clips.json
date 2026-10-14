@@ -1,0 +1,20 @@
+{
+  "notice": "Synthetic mock data only. Replace only with verified authorized connector responses.",
+  "clips": [
+    {
+      "clip_id": "fixture-clip-102",
+      "clip_number": "CLIP-102",
+      "generation_job": {"job_id": "fixture-job-102", "status": "completed"},
+      "description": "A sample character walks through a quiet garden.",
+      "original_script": "Mira: The garden is peaceful today.",
+      "characters": [{"character_id": "mira", "name": "Mira"}],
+      "scenes": [{"scene_id": "scene-1", "order": 1, "start_seconds": 0, "end_seconds": 5, "description": "Garden", "characters": ["mira"]}],
+      "dialogue": [{"text": "The garden is peaceful today.", "start_seconds": 1, "end_seconds": 3}],
+      "subtitles": [{"text": "The garden is peaceful today.", "start_seconds": 1, "end_seconds": 3}],
+      "video_path": null,
+      "expected_media": {},
+      "provenance": [],
+      "connector": "mock_fixture"
+    }
+  ]
+}

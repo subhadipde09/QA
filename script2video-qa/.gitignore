@@ -1,0 +1,11 @@
+.venv/
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+*.egg-info/
+__pycache__/
+.pytest_cache/
+artifacts/*
+!artifacts/.gitkeep
+.env

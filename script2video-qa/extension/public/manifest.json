@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Script2Video QA",
+  "version": "0.1.0",
+  "description": "Run local QA checks for existing generated video clips.",
+  "action": {"default_title": "Script2Video QA", "default_popup": "index.html"},
+  "background": {"service_worker": "background.js", "type": "module"},
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["http://127.0.0.1:8000/*"]
+}
